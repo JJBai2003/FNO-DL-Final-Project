@@ -48,7 +48,7 @@ We implemented testing following the template from previous class projects. We l
 Here is the table comparing the result of our implementation to the paper. 
 ![image](https://github.com/JJBai2003/FNO-DL-Final-Project/assets/60070699/7b0f6dbd-e1c8-4388-92d1-7eaa352351db)
 - Our L2 losses were higher than the result in the paper, which makes sense as we only trained for 50 epochs instead of 500.
-- Despite the slight difference, our losses are relatively consistent throughout the resolutions, which means our implementation also achieved resolution-invariance.
+- Our losses are relatively consistent throughout the resolutions with a difference of less than 0.002 across different resolutions, which means our implementation also achieved resolution-invariance to an extent.   
 - The error rate is very low, which means our implementation was able to learn the Burgers' equation and make accurate predictions at time = 1 for different resolutions.
 - The training process was relatively fast, even for s = 8192, which reiterates the power and efficiency of FNOs.
   
