@@ -43,7 +43,7 @@ def first_deriv(x, dx):
     dudx[:,0] = (x[:,1] - x[:,0])/dx
     dudx[:,-1] = (x[:,-1] - x[:,-2])/dx
 
-    for i in range(x.shape[0]-2):
+    for i in range(x.shape[1]-2):
         dudx[:,(i+1)] = (x[:,(i+2)] - x[:,i])/(2*dx)
 
     return dudx
