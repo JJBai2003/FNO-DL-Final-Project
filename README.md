@@ -50,7 +50,8 @@ Here is the table comparing the result of our implementation to the paper.
 - The training process was relatively fast, even for s = 8192, which reiterates the power and efficiency of FNOs.
 - 
 To better visualize the result, we created this graph, which displays a very similar trend to the paper.
-![alt text](results\graph.png)
+![image](https://github.com/JJBai2003/FNO-DL-Final-Project/assets/60070699/be891463-5bcf-4528-8c10-78bb6f3e3302)
+
 We generated the graph on the left by calling our model on a set of data(x) and then plotting the output. The graph on the right is the ground truth y. 
 
 
